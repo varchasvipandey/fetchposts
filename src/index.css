@@ -1,0 +1,56 @@
+body {
+  margin: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+.header h1 {
+  font-family: "Playfair Display", sans-serif;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.header p {
+  margin: 0;
+}
+
+.post-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #bcbcbc;
+}
+
+.post-item__number {
+  position: absolute;
+  margin: 0;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  top: -28px;
+  opacity: 0.15;
+  left: -8px;
+}
+
+.post-item__title {
+  font-family: "Playfair Display", sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.post-item__body {
+  margin: 0;
+}
+
+.loadmore-container {
+  text-align: center;
+}
+
+.loadmore-container button {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 18px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
