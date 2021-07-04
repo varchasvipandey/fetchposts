@@ -22,7 +22,11 @@ function Posts() {
     <PostItem key={post.id} post={post} />
   ));
 
-  return <div className="posts">{renderPosts}</div>;
+  return (
+    <div role="list" className="posts">
+      {renderPosts}
+    </div>
+  );
 }
 
 export default Posts;
