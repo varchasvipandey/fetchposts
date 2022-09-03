@@ -16,6 +16,7 @@ function Posts() {
       setIsFetching(false);
       setPosts([...posts, ...data]);
     })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   const renderPosts = posts.map((post) => (
